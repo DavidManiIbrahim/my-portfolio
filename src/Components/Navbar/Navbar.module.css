@@ -1,0 +1,44 @@
+@import "../../styles/Vars.css";
+
+.Navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    z-index: 2;
+    margin: 0 10%;
+}
+
+.title{
+    position: relative;
+    right: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+.menuItems, a{
+    cursor: pointer;
+    font-size: 20px;
+    /* position: relative; */
+    /* left: 20px; */
+    /* font-weight: 200; */
+    text-decoration: none;
+    gap: 50px;
+    list-style-type: none;
+    color: var(--color-text);
+    display: flex;
+}
+
+
+
+
+
+
+
+
+

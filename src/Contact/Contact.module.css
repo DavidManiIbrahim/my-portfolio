@@ -1,0 +1,24 @@
+/* contact */
+
+.contact-section{
+    width: 100%;
+    height: 50%;
+    background: skyblue;
+    display: flex;
+    padding: 20px;
+    /* margin: 20px; */
+    text-align: center;
+}
+
+.contact-msg{
+    width: 50%;
+    padding: 10px;
+    font-size: larger;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.contact-email{
+    margin: 20px;
+    display: flex;
+}

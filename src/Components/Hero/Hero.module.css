@@ -1,0 +1,55 @@
+
+
+
+.Container{
+    max-width: 100%;
+    margin: 10px;
+    height: 80vh;
+    display: flex;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: #000; */
+}
+.text{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5%;
+    font-size: 20px;
+    width: 50%;
+    /* text-wrap: wrap; */
+    
+}
+
+.description{
+    margin-top: 10px;
+}
+
+.img{
+    width: 50%;
+    height: 50%;
+    margin: 10px auto;
+    padding: 20px;
+}
+.image{
+    /* border: 1px solid #fff; */
+    cursor: pointer;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    border-radius: 50%;
+    height: 50vh;
+}
+
+.btn{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 300;
+    border: none;
+    background: lightcyan;
+}
+
+
+
