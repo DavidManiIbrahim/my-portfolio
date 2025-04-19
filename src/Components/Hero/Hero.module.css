@@ -51,5 +51,24 @@
     background: lightcyan;
 }
 
-
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .socials svg {
+    font-size: 24px;
+    color: #fff;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .socials svg:hover {
+    transform: scale(1.2);
+    color: var(--color-accent, #00acee); /* fallback color if custom var not set */
+  }
+  
 

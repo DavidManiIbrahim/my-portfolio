@@ -1,4 +1,4 @@
-import styles from "./Experience.Module.css";
+import styles from "./Experience.module.css";
 
 const Experience = () => {
   return (
