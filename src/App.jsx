@@ -1,4 +1,5 @@
 // import React from 'react'
+import { Route, Routes } from "react-router-dom"
 import Navbar from "./Components/Navbar/Navbar.jsx"
 import Hero from "./Components/Hero/Hero.jsx"
 import styles from "./styles/App.module.css"
@@ -10,10 +11,16 @@ const App = () => {
   return (
     <div className={styles.App}>
      <Navbar />
-     <Hero />
-     <About />
-     <Experience />
-     <Projects />
+     <Routes>
+      <Route path="/" element={<Hero />}></Route>
+      <Route path="/about" element={<About />}></Route>
+      <Route path="/experience" element={<Experience />}></Route>
+      <Route path="/projects" element={<Projects />}></Route>
+     </Routes>
+     {/* <Hero /> */}
+     {/* <About /> */}
+     {/* <Experience /> */}
+     {/* <Projects /> */}
       </div>
   )
 }

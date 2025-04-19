@@ -33,7 +33,7 @@ const Projects = () => {
           {/* <!-- <div className={box}> --> */}
           {/* <img src={} alt="project image" width="300px"> */}
           <div className={styles.projectContent}>
-            <h2>Project A</h2>
+            <h2>Project B</h2>
             <p>
               This is a project made to learn the latest languages by building
               an app
@@ -54,7 +54,7 @@ const Projects = () => {
           {/* <!-- <div className="box"> --> */}
           {/* <img src="./vlcsnap-2024-12-29-19h23m09s344.png" alt="project image" width="300px"> */}
           <div className={styles.projectContent}>
-            <h2>Project A</h2>
+            <h2>Project c</h2>
             <p>
               This is a project made to learn the latest languages by building
               an app
