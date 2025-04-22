@@ -5,7 +5,7 @@ import Hero from "./Components/Hero/Hero.jsx"
 import styles from "./styles/App.module.css"
 import About from "./Components/About/About.jsx"
 import Experience from "./Components/Experience/Experience.jsx"
-// import Projects from "./Components/Projects/Projects.jsx"
+import Projects from "./Components/Projects/Projects.jsx"
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
       <Route path="/" element={<Hero />}></Route>
       <Route path="/about" element={<About />}></Route>
       <Route path="/experience" element={<Experience />}></Route>
-      {/* <Route path="/projects" element={<Projects />}></Route> */}
+      <Route path="/projects" element={<Projects />}></Route>
      </Routes>
      {/* <Hero /> */}
      {/* <About /> */}

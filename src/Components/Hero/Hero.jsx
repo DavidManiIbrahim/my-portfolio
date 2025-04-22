@@ -10,6 +10,9 @@ const Hero = () => {
 
   return (
     <div className={styles.Container}>
+       <div className={styles.img}>
+        <img className={styles.image} src={myImg} alt="user image" />
+      </div>
       <div className={styles.text}>
         <h1>Hi, I'm MANI</h1>
         <p className={styles.description}>
@@ -31,9 +34,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div className={styles.img}>
-        <img className={styles.image} src={myImg} alt="user image" />
-      </div>
+     
     </div>
   )
 }

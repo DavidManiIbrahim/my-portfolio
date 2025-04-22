@@ -1,47 +1,45 @@
-
-
-
-.Container{
+.Container {
     max-width: 100%;
     margin: 10px;
-    height: 80vh;
+    height: auto;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* background: #000; */
-}
-.text{
+  }
+  
+  .text {
     justify-content: center;
     align-items: center;
     margin: auto;
     padding: 5%;
     font-size: 15px;
     width: 50%;
-    /* text-wrap: wrap; */
-    
-}
-
-.description{
+  }
+  
+  .description {
     margin-top: 10px;
-}
-
-.img{
+  }
+  
+  .img {
     width: 50%;
-    height: 50%;
+    height: auto;
     margin: 10px auto;
     padding: 20px;
-}
-.image{
-    /* border: 1px solid #fff; */
+  }
+  
+  .image {
     cursor: pointer;
-    width: 50%;
-    position: relative;
-    left: 25%;
+    width: 100%;
+    max-width: 300px;
     border-radius: 50%;
-    height: 50vh;
-}
-
-.btn{
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .btn {
     margin-top: 15px;
     padding: 10px;
     border-radius: 12px;
@@ -49,9 +47,9 @@
     font-weight: 300;
     border: none;
     background: lightcyan;
-}
-
-.socials {
+  }
+  
+  .socials {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +66,23 @@
   
   .socials svg:hover {
     transform: scale(1.2);
-    color: var(--color-accent, #00acee); /* fallback color if custom var not set */
+    color: var(--color-accent, #00acee);
   }
   
-
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .Container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .text, .img {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .text {
+      text-align: center;
+    }
+  }
+  
