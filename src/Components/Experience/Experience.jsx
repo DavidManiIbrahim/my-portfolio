@@ -1,6 +1,15 @@
 import styles from "./Experience.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGoogle, faMicrosoft } from '@fortawesome/free-brands-svg-icons';
+import {
+  faHtml5,
+  faCss3Alt,
+  faJs,
+  faReact,
+  faNodeJs
+} from "@fortawesome/free-brands-svg-icons";
+import { SiTailwindcss } from "react-icons/si";
+
 
 
 const Experience = () => {
@@ -8,7 +17,17 @@ const Experience = () => {
     <div className={styles.experienceSection}>
       <div className={styles.techstackImages}>
         <h1>EXPERIENCE</h1>
-        <img src="" alt="Tech Stack Illustration" />
+        <div className={styles.iconContainer}>
+        <div className={styles.iconGrid}>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faHtml5} /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faCss3Alt} /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faJs} /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faReact} /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faNodeJs} /></div>
+  <div className={styles.iconBox}><SiTailwindcss /></div> {/* react-icons */}
+</div>
+
+        </div>
       </div>
 
       <div className={styles.experienceProjects}>
@@ -26,10 +45,10 @@ const Experience = () => {
             </div>
           </div>
 
-       
+
 
           <div className={styles.netflix}>
-            
+
             <img src="/netflix.png" alt="Netflix Logo" width={80} />
 
 
