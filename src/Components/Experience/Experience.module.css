@@ -27,6 +27,36 @@
     gap: 20px;
   }
   
+  .iconGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 10px;
+  }
+  
+  .iconBox {
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .iconBox:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .iconBox svg {
+    font-size: 32px;
+    color: #fff;
+  }
+  
+
   .logoContainer {
     width: 80px;
     height: 80px;

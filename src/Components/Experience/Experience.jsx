@@ -1,14 +1,14 @@
 import styles from "./Experience.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGoogle, faMicrosoft } from '@fortawesome/free-brands-svg-icons';
-import {
-  faHtml5,
-  faCss3Alt,
-  faJs,
-  faReact,
-  faNodeJs
-} from "@fortawesome/free-brands-svg-icons";
-import { SiTailwindcss } from "react-icons/si";
+// import {
+//   faHtml5,
+//   faCss3Alt,
+//   faJs,
+//   faReact,
+//   faNodeJs
+// } from "@fortawesome/free-brands-svg-icons";
+// import { SiTailwindcss } from "react-icons/si";
 
 
 
@@ -19,12 +19,14 @@ const Experience = () => {
         <h1>EXPERIENCE</h1>
         <div className={styles.iconContainer}>
         <div className={styles.iconGrid}>
-  <div className={styles.iconBox}><FontAwesomeIcon icon={faHtml5} /></div>
-  <div className={styles.iconBox}><FontAwesomeIcon icon={faCss3Alt} /></div>
-  <div className={styles.iconBox}><FontAwesomeIcon icon={faJs} /></div>
-  <div className={styles.iconBox}><FontAwesomeIcon icon={faReact} /></div>
-  <div className={styles.iconBox}><FontAwesomeIcon icon={faNodeJs} /></div>
-  <div className={styles.iconBox}><SiTailwindcss /></div> {/* react-icons */}
+  {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faHtml5} /></div> */}
+  {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faCss3Alt} /></div> */}
+  {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faJs} /></div> */}
+  <div className={styles.logoContainer}><img src="/react.jpg" alt="react logo" /></div>
+    <div className={styles.logoContainer}><img src="/node.png" alt="node logo" /></div>
+  {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faReact} /></div> */}
+  {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faNodeJs} /></div> */}
+  {/* <div className={styles.iconBox}><SiTailwindcss /></div>  */}
 </div>
 
         </div>
