@@ -25,6 +25,10 @@
     font-size: 1.5rem;
   }
   
+  li{
+    list-style-type: none;
+  }
+
   button {
     padding: 10px;
     width: auto;

@@ -1,15 +1,27 @@
+
+
 import styles from "./Projects.module.css";
 
 const Projects = () => {
+  const titles = ["Voting App", "Ecommerce", "CRMS"]
+  const descriptions = [`A user friendly digital platform that enables secure and transparent voting for various topics, issues or candidate.`,
+   `A fully functional online store built to provide seamless shopping experience for customers`,
+    `A customer relationship management system designed to streamline customer interaction, sales processes, and data management.`]
+  const images = [`/vite.svg`,`/vite.svg`,`/vite.svg`]
   return (
+     
     <div className={styles.projectSection}>
-      {["A", "B", "C"].map((project, index) => (
+      {titles.map((title, index) => (
         <div className={styles.projectContainer} key={index}>
           <div className={styles.projectContent}>
-            <h2>Project {project}</h2>
+            <img src={images[index]} alt="" />
+            <h2> {title} </h2>
             <p>
-              This is a project made to learn the latest languages by building an app
+              {descriptions[index]}
             </p>
+            <div className={styles.imageContainer}>
+
+            </div>
             <div className={styles.lang}>
               <button>React</button>
               <button>Express</button>
