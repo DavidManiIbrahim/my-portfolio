@@ -24,6 +24,10 @@ const Experience = () => {
   {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faJs} /></div> */}
   <div className={styles.logoContainer}><img src="/react.jpg" alt="react logo" /></div>
     <div className={styles.logoContainer}><img src="/node.png" alt="node logo" /></div>
+  <div className={styles.logoContainer}><img src="/react.jpg" alt="react logo" /></div>
+    <div className={styles.logoContainer}><img src="/node.png" alt="node logo" /></div>
+  <div className={styles.logoContainer}><img src="/react.jpg" alt="react logo" /></div>
+    <div className={styles.logoContainer}><img src="/node.png" alt="node logo" /></div>
   {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faReact} /></div> */}
   {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faNodeJs} /></div> */}
   {/* <div className={styles.iconBox}><SiTailwindcss /></div>  */}
@@ -51,14 +55,14 @@ const Experience = () => {
 
           <div className={styles.netflix}>
 
-            <img src="/netflix.png" alt="Netflix Logo" width={80} />
+            <img className={styles.intern} src="/netflix.png" alt="Netflix Logo" width={80} />
 
 
             <div className={styles.netflixContent}>
-              <h3>SWE Intern, Netflix</h3>
-              <span>April, 2020 - Jan, 2021</span>
+              <h3>Bitbyte Intern, Nexcent</h3>
+              <span>June, 2024 - Nov, 2024</span>
               <ul>
-                <li>Worked on component library</li>
+                <li>Worked on Nextcent Website</li>
               </ul>
             </div>
 

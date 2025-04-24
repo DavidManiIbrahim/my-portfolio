@@ -30,9 +30,9 @@ const About = () => {
 
         <div className={styles.uiux}>
           <div>
-            <h3>UI Designer</h3>
+            <h3>Mobile Developer</h3>
             <p>
-              I have designed multiple landing pages and created design systems as well.
+              I have experience in building mobile friendle application.
             </p>
           </div>
         </div>

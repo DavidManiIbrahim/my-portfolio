@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 90vw;
+    min-height: 80vh;
     color: #fff;
     padding: 20px;
     margin: auto;
@@ -30,9 +31,12 @@
   .iconGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(80px, 1fr));
     gap: 20px;
+    width: 350px;
     justify-items: center;
     padding: 10px;
+    /* border: 1px solid white; */
   }
   
   .iconBox {
@@ -78,6 +82,10 @@
 
   .experienceProjects {
     width: 100%;
+  }
+
+  .intern{
+    margin: auto;
   }
   
   .google,
