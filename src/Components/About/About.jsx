@@ -1,16 +1,23 @@
 import styles from "./About.module.css";
-import myImg from "../../assets/DMI.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXTwitter, faLinkedin, faGithub, faFacebook, faWhatsapp, faAccessibleIcon } from "@fortawesome/free-brands-svg-icons";
+
+
+
+
 
 const About = () => {
   return (
     <div className={styles.aboutSection}>
       <div className={styles.userImg}>
         <h1>ABOUT</h1>
-        <img className={styles.aboutImg} src={myImg} alt="user image" />
+        <img className={styles.aboutImg} src="/DMI.jpg" alt="user image" />
       </div>
 
       <div className={styles.userStacks}>
         <div className={styles.frontend}>
+        {/* <FontAwesomeIcon icon={faAccessibleIcon} /> */}
+
           <div>
             <h3>Frontend Developer</h3>
             <p>

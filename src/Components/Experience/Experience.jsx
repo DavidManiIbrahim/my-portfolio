@@ -1,6 +1,6 @@
 import styles from "./Experience.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGoogle, faMicrosoft } from '@fortawesome/free-brands-svg-icons';
+import { faAffiliatetheme, faAngular, faAutoprefixer, faBilibili, faCss3, faDiscord, faFigma, faGit, faGitAlt, faGithubAlt, faGoogle, faHtml5, faJs, faJsSquare, faMicrosoft, faNode, faNodeJs, faNpm, faReact, faWix } from '@fortawesome/free-brands-svg-icons';
 // import {
 //   faHtml5,
 //   faCss3Alt,
@@ -9,6 +9,8 @@ import { faGoogle, faMicrosoft } from '@fortawesome/free-brands-svg-icons';
 //   faNodeJs
 // } from "@fortawesome/free-brands-svg-icons";
 // import { SiTailwindcss } from "react-icons/si";
+
+import { faXTwitter, faLinkedin, faGithub, faFacebook, faWhatsapp, faAccessibleIcon } from "@fortawesome/free-brands-svg-icons";
 
 
 
@@ -19,15 +21,18 @@ const Experience = () => {
         <h1>EXPERIENCE</h1>
         <div className={styles.iconContainer}>
         <div className={styles.iconGrid}>
-  {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faHtml5} /></div> */}
-  {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faCss3Alt} /></div> */}
-  {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faJs} /></div> */}
-  <div className={styles.logoContainer}><img src="/react.jpg" alt="react logo" /></div>
-    <div className={styles.logoContainer}><img src="/node.png" alt="node logo" /></div>
-  <div className={styles.logoContainer}><img src="/react.jpg" alt="react logo" /></div>
-    <div className={styles.logoContainer}><img src="/node.png" alt="node logo" /></div>
-  <div className={styles.logoContainer}><img src="/react.jpg" alt="react logo" /></div>
-    <div className={styles.logoContainer}><img src="/node.png" alt="node logo" /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faHtml5} /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faCss3} /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faJs} /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faReact} /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faNodeJs} /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faFigma} /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faGitAlt} /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faGithub} /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faNpm} /></div>
+  {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faAngular} /></div> */}
+  {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faDiscord} /></div> */}
+
   {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faReact} /></div> */}
   {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faNodeJs} /></div> */}
   {/* <div className={styles.iconBox}><SiTailwindcss /></div>  */}
@@ -39,14 +44,14 @@ const Experience = () => {
       <div className={styles.experienceProjects}>
         <div className={styles.experience}>
           <div className={styles.google}>
-            {/* <img src="" alt="google logo" /> */}
+            
             <FontAwesomeIcon icon={faGoogle} size="4x" />
             <div className={styles.googleContent}>
-              <h3>Software Engineer, Google</h3>
-              <span>Sept, 2022 - Present</span>
+              <h3>Computer Technician, Abelov int</h3>
+              <span>Feb, 2021 - Present</span>
               <ul>
-                <li>Worked on Google Maps</li>
-                <li>Reduced load time by 50%</li>
+                <li>Worked on Customer Relationship Management System</li>
+                {/* <li>Collect data and printout receipts</li> */}
               </ul>
             </div>
           </div>
@@ -69,14 +74,14 @@ const Experience = () => {
           </div>
 
           <div className={styles.microsoft}>
-            {/* <img src="" alt="microsoft logo" /> */}
+            
             <FontAwesomeIcon icon={faMicrosoft} size="4x" />
             <div className={styles.microsoftContent}>
-              <h3>UI Designer, Microsoft</h3>
-              <span>Aug, 2021 - Aug, 2022</span>
+              <h3>Web Developer, Oasis Hub</h3>
+              <span>Aug, 2024 - present</span>
               <ul>
-                <li>Worked on Windows 11</li>
-                <li>Designed the control panel</li>
+                <li>Worked on Web3 website</li>
+                
               </ul>
             </div>
           </div>
