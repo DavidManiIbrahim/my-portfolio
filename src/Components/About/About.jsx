@@ -35,7 +35,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className={styles.uiux}>
+        <div className={styles.mobile}>
           <div>
             <h3>Mobile Developer</h3>
             <p>

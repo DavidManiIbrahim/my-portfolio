@@ -38,6 +38,10 @@
     display: block;
     margin: 0 auto;
   }
+
+  .image:hover{
+    scale: 1.1;
+  }
   
   .btn {
     margin-top: 15px;

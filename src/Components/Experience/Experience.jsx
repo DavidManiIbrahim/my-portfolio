@@ -1,6 +1,6 @@
 import styles from "./Experience.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAffiliatetheme, faAngular, faAutoprefixer, faBilibili, faCss3, faDiscord, faFigma, faGit, faGitAlt, faGithubAlt, faGoogle, faHtml5, faJs, faJsSquare, faMicrosoft, faNode, faNodeJs, faNpm, faReact, faWix } from '@fortawesome/free-brands-svg-icons';
+import { faAffiliatetheme, faAngular, faAutoprefixer, faBilibili, faBootstrap, faCss3, faDiscord, faFigma, faGit, faGitAlt, faGithubAlt, faGoogle, faHtml5, faJs, faJsSquare, faMicrosoft, faNode, faNodeJs, faNpm, faReact, faTelegram, faWix } from '@fortawesome/free-brands-svg-icons';
 // import {
 //   faHtml5,
 //   faCss3Alt,
@@ -25,12 +25,13 @@ const Experience = () => {
   <div className={styles.iconBox}><FontAwesomeIcon icon={faCss3} /></div>
   <div className={styles.iconBox}><FontAwesomeIcon icon={faJs} /></div>
   <div className={styles.iconBox}><FontAwesomeIcon icon={faReact} /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faBootstrap} /></div>
   <div className={styles.iconBox}><FontAwesomeIcon icon={faNodeJs} /></div>
-  <div className={styles.iconBox}><FontAwesomeIcon icon={faFigma} /></div>
   <div className={styles.iconBox}><FontAwesomeIcon icon={faGitAlt} /></div>
+  <div className={styles.iconBox}><FontAwesomeIcon icon={faFigma} /></div>
   <div className={styles.iconBox}><FontAwesomeIcon icon={faGithub} /></div>
-  <div className={styles.iconBox}><FontAwesomeIcon icon={faNpm} /></div>
-  {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faAngular} /></div> */}
+
+  {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faTelegram} /></div> */}
   {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faDiscord} /></div> */}
 
   {/* <div className={styles.iconBox}><FontAwesomeIcon icon={faReact} /></div> */}
