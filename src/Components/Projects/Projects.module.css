@@ -14,11 +14,24 @@
   
   .projectContainer {
     padding: 20px;
-    /* border: 1px solid wheat; */
+    /*border: 1px solid wheat;*/
+    /* background-color: var(--color-primary); */
     width: 30%;
+    gap: 20px;
+    justify-content: space-between;
+    border-radius: 30px;
     flex-wrap: wrap;
     min-width: 300px;
     box-sizing: border-box;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+  .projectContainer:hover{
+    scale: 1.1;
+    /* flex-shrink: var(1.3); */
   }
   
   .projectContent h2 {
